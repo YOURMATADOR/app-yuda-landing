@@ -93,6 +93,7 @@ hr {
   font-family: 'Unica One', cursive;
   padding-bottom: 0;
   padding-top: 0;
+  color:white!important;
 }
 .navbar-brand {
   font-size: 1.5rem;
@@ -114,16 +115,21 @@ hr {
 }
 .navbar-nav > li > a,
 .navbar-nav > li > button {
-  color: #6b7a78;
   height: 36px;
+  color: white; 
   line-height: 36px;
   margin-top: 22px;
 }
 .navbar-default .navbar-nav > .active > a {
   background-color: transparent;
-  color: #29a598;
+  color: #208479;
   text-decoration: underline;
+
 }
+.navbar-default .navbar-nav > .active > a{
+color: white;
+}
+
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > .active > a:focus,
@@ -150,6 +156,9 @@ hr {
 .menu-fixed .navbar-toggle,
 .menu-fixed .navbar-nav > li > a {
   margin-top: 13px;
+  color: #29a598 !important;
+  text-decoration: none;
+  font-weight: bold;
 }
 .menu-fixed .navbar-brand {
   display: block;
@@ -275,7 +284,9 @@ footer.row {
 }
 .outline.green {
   border-color: #29a598;
-  color: #29a598;
+  color: white;
+  background: #29a598;
+  font-weight: bold;
 }
 .outline.green:focus,
 .outline.green:hover {
@@ -293,10 +304,14 @@ footer.row {
 }
 /* Navbar Contact Button */
 .navbar-nav .outline.pink {
-  border-color: #df3778;
-  color: #df3778;
-  margin: 20px 15px 0;
-  padding-top: 0;
+      /* border-color: #df3778; */
+    /* color: #df3778; */
+    margin: 20px 15px 0;
+    border: 3px solid red;
+    padding-top: 0;
+    /* color: red; */
+    font-weight: bold;
+    background: red;
 }
 .navbar-nav .outline.pink:focus,
 .navbar-nav .outline.pink:hover {
